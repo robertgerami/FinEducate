@@ -13,8 +13,8 @@
 		E171CE8620EBB14A002304A0 /* FinEducate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E171CE8420EBB14A002304A0 /* FinEducate.xcdatamodeld */; };
 		E171CE8820EBB14A002304A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E171CE8720EBB14A002304A0 /* Assets.xcassets */; };
 		E171CE8B20EBB14A002304A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E171CE8920EBB14A002304A0 /* LaunchScreen.storyboard */; };
-		E171CE9720EBDB8E002304A0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E171CE9520EBDB8E002304A0 /* SWRevealViewController.m */; };
 		E171CE9920EBE39B002304A0 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E171CE9820EBE39B002304A0 /* ViewController2.swift */; };
+		F134395F20EFA0BD00ED566D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F134395E20EFA0BC00ED566D /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,9 @@
 		E171CE8A20EBB14A002304A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E171CE8C20EBB14A002304A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E171CE9420EBDB8D002304A0 /* FinEducate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FinEducate-Bridging-Header.h"; sourceTree = "<group>"; };
-		E171CE9520EBDB8E002304A0 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../../SWRevealViewController.m; sourceTree = "<group>"; };
-		E171CE9620EBDB8E002304A0 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../../SWRevealViewController.h; sourceTree = "<group>"; };
 		E171CE9820EBE39B002304A0 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		F134395D20EFA0BC00ED566D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../../../Downloads/SWRevealViewController.h; sourceTree = "<group>"; };
+		F134395E20EFA0BC00ED566D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../../../Downloads/SWRevealViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,14 +62,14 @@
 		E171CE7C20EBB14A002304A0 /* FinEducate */ = {
 			isa = PBXGroup;
 			children = (
+				F134395D20EFA0BC00ED566D /* SWRevealViewController.h */,
+				F134395E20EFA0BC00ED566D /* SWRevealViewController.m */,
 				E171CE7D20EBB14A002304A0 /* AppDelegate.swift */,
 				E171CE7F20EBB14A002304A0 /* ViewController.swift */,
 				E171CE8120EBB14A002304A0 /* Main.storyboard */,
 				E171CE8720EBB14A002304A0 /* Assets.xcassets */,
 				E171CE8920EBB14A002304A0 /* LaunchScreen.storyboard */,
 				E171CE9820EBE39B002304A0 /* ViewController2.swift */,
-				E171CE9620EBDB8E002304A0 /* SWRevealViewController.h */,
-				E171CE9520EBDB8E002304A0 /* SWRevealViewController.m */,
 				E171CE8C20EBB14A002304A0 /* Info.plist */,
 				E171CE8420EBB14A002304A0 /* FinEducate.xcdatamodeld */,
 				E171CE9420EBDB8D002304A0 /* FinEducate-Bridging-Header.h */,
@@ -104,7 +104,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Bobby Gerami";
 				TargetAttributes = {
 					E171CE7920EBB14A002304A0 = {
@@ -154,7 +154,7 @@
 				E171CE8020EBB14A002304A0 /* ViewController.swift in Sources */,
 				E171CE8620EBB14A002304A0 /* FinEducate.xcdatamodeld in Sources */,
 				E171CE7E20EBB14A002304A0 /* AppDelegate.swift in Sources */,
-				E171CE9720EBDB8E002304A0 /* SWRevealViewController.m in Sources */,
+				F134395F20EFA0BD00ED566D /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +194,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -201,6 +202,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -251,6 +253,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -258,6 +261,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

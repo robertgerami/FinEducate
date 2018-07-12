@@ -8,23 +8,6 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-<<<<<<< HEAD
-=======
-    <customFonts key="customFonts">
-        <array key="Avenir.ttc">
-            <string>Avenir-Book</string>
-            <string>Avenir-Medium</string>
-            <string>Avenir-MediumOblique</string>
-        </array>
-        <array key="AvenirNext.ttc">
-            <string>AvenirNext-DemiBold</string>
-            <string>AvenirNext-Medium</string>
-        </array>
-        <array key="Damascus.ttc">
-            <string>DamascusLight</string>
-        </array>
-    </customFonts>
->>>>>>> 38cecd7462e4a28300cfd3e1a9d03a0f697409d6
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -35,11 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background4" translatesAutoresizingMaskIntoConstraints="NO" id="0VD-c3-a4J">
-<<<<<<< HEAD
                                 <rect key="frame" x="-1" y="-10" width="376" height="677"/>
-=======
-                                <rect key="frame" x="-1" y="-10" width="376" height="667"/>
->>>>>>> 38cecd7462e4a28300cfd3e1a9d03a0f697409d6
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
@@ -51,7 +30,6 @@
                                 <rect key="frame" x="23" y="261" width="323" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-<<<<<<< HEAD
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="Dwb-dh-cgx">
                                 <rect key="frame" x="30" y="282" width="316" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -66,7 +44,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="23"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" textContentType="name"/>
+                                <textInputTraits key="textInputTraits" textContentType="username"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
                                         <color key="value" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -76,43 +54,6 @@
                             <textField contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pij-6Z-q6a">
                                 <rect key="frame" x="67" y="330" width="277" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-=======
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blackrock Logo" translatesAutoresizingMaskIntoConstraints="NO" id="rB5-WH-BYv">
-                                <rect key="frame" x="16" y="620" width="118" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="®" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bpl-RC-J7b">
-                                <rect key="frame" x="136" y="620" width="20" height="13"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="Dwb-dh-cgx">
-                                <rect key="frame" x="30" y="282" width="316" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="user-2" translatesAutoresizingMaskIntoConstraints="NO" id="Kcd-2x-rcE">
-                                <rect key="frame" x="17" y="269" width="44" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textField contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="aF7-SG-g4C">
-                                <rect key="frame" x="67" y="261" width="277" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="23"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="username"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
-                                        <color key="value" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </textField>
-                            <textField contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pij-6Z-q6a">
-                                <rect key="frame" x="67" y="330" width="277" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
->>>>>>> 38cecd7462e4a28300cfd3e1a9d03a0f697409d6
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="23"/>
@@ -163,7 +104,6 @@
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Forgot password?" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kPC-ZR-5LA">
                                 <rect key="frame" x="28" y="466" width="316" height="30"/>
-<<<<<<< HEAD
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
@@ -178,11 +118,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-=======
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
->>>>>>> 38cecd7462e4a28300cfd3e1a9d03a0f697409d6
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
@@ -278,11 +213,7 @@
                         <color key="sectionIndexColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="sectionIndexBackgroundColor" red="0.15686274509803921" green="0.17254901960784313" blue="0.19607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <sections>
-<<<<<<< HEAD
                             <tableViewSection headerTitle="" id="jwx-um-4vd">
-=======
-                            <tableViewSection headerTitle="Learn2Earn" id="jwx-um-4vd">
->>>>>>> 38cecd7462e4a28300cfd3e1a9d03a0f697409d6
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="THz-4h-Q2N">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -343,31 +274,20 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D6x-pR-DHe">
-<<<<<<< HEAD
                                                     <rect key="frame" x="55" y="6" width="77" height="33"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <state key="normal" title="Education">
                                                         <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-=======
-                                                    <rect key="frame" x="28" y="5" width="77" height="33"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <state key="normal" title="Education">
-                                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
->>>>>>> 38cecd7462e4a28300cfd3e1a9d03a0f697409d6
                                                     </state>
                                                     <connections>
                                                         <segue destination="L7j-Gp-I9J" kind="show" id="V3z-VN-NMg"/>
                                                     </connections>
                                                 </button>
-<<<<<<< HEAD
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="education_icon" translatesAutoresizingMaskIntoConstraints="NO" id="1NW-d0-xcK">
                                                     <rect key="frame" x="6" y="7" width="47" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-=======
->>>>>>> 38cecd7462e4a28300cfd3e1a9d03a0f697409d6
                                             </subviews>
                                             <color key="backgroundColor" red="0.15294117647058825" green="0.17254901960784313" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </tableViewCellContentView>
@@ -487,7 +407,6 @@
                                     <view opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2iN-kR-8GX">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="855"/>
                                         <subviews>
-<<<<<<< HEAD
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold_price_image" translatesAutoresizingMaskIntoConstraints="NO" id="R93-e5-1Uo">
                                                 <rect key="frame" x="22" y="32" width="331" height="172"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -538,15 +457,6 @@
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="- $20.42 (0.14%)" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VhS-65-4B4">
                                                 <rect key="frame" x="224" y="271" width="129" height="32"/>
-=======
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trade_graph1" translatesAutoresizingMaskIntoConstraints="NO" id="R93-e5-1Uo">
-                                                <rect key="frame" x="22" y="46" width="331" height="172"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trade_image2-1" translatesAutoresizingMaskIntoConstraints="NO" id="Oda-ac-TN4">
-                                                <rect key="frame" x="22" y="259" width="331" height="169"/>
->>>>>>> 38cecd7462e4a28300cfd3e1a9d03a0f697409d6
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="textColor" red="0.80805405050000001" green="0.43590138090000002" blue="0.1704803224" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
@@ -562,7 +472,6 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Silver" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nW5-xV-0Pn">
                                                 <rect key="frame" x="29" y="465" width="79" height="32"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<<<<<<< HEAD
                                                 <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="20"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
@@ -576,14 +485,6 @@
                                             </textField>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bronze_price_image" translatesAutoresizingMaskIntoConstraints="NO" id="bQy-DV-jvA">
                                                 <rect key="frame" x="22" y="654" width="331" height="146"/>
-=======
-                                                <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="24"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trade_image2" translatesAutoresizingMaskIntoConstraints="NO" id="L2b-oO-pQx">
-                                                <rect key="frame" x="22" y="470" width="331" height="146"/>
->>>>>>> 38cecd7462e4a28300cfd3e1a9d03a0f697409d6
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$502.46" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ai6-50-gOe">
@@ -596,7 +497,6 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bronze" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygX-6t-4l9">
                                                 <rect key="frame" x="29" y="656" width="79" height="32"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<<<<<<< HEAD
                                                 <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="20"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
@@ -606,56 +506,6 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="textColor" red="0.80805405050000001" green="0.43590138090000002" blue="0.1704803224" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
-=======
-                                                <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="24"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trade_image2" translatesAutoresizingMaskIntoConstraints="NO" id="bQy-DV-jvA">
-                                                <rect key="frame" x="22" y="689" width="331" height="146"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$634.62" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uFb-t1-c2d">
-                                                <rect key="frame" x="288" y="45" width="65" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="textColor" red="0.21454489374963301" green="0.47988821982127161" blue="0.30070660428051504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="23"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="- $32.42 (0.24%)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U7u-vV-hA9">
-                                                <rect key="frame" x="227" y="72" width="126" height="28"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="textColor" red="0.80805405051575097" green="0.43590138090025604" blue="0.17048032236111155" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="23"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$500.87" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TT3-5l-JGG">
-                                                <rect key="frame" x="288" y="259" width="65" height="32"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="textColor" red="0.21454489369999999" green="0.47988821980000002" blue="0.30070660430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="23"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gold" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nJa-HJ-kEZ">
-                                                <rect key="frame" x="30" y="46" width="79" height="39"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="20"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Oil" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BSe-ev-T64">
-                                                <rect key="frame" x="30" y="259" width="79" height="39"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="20"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="- $20.42 (0.14%)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VhS-65-4B4">
-                                                <rect key="frame" x="227" y="282" width="126" height="32"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="textColor" red="0.80805405050000001" green="0.43590138090000002" blue="0.1704803224" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="23"/>
->>>>>>> 38cecd7462e4a28300cfd3e1a9d03a0f697409d6
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                         </subviews>
@@ -675,10 +525,7 @@
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-<<<<<<< HEAD
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-=======
->>>>>>> 38cecd7462e4a28300cfd3e1a9d03a0f697409d6
                         <constraints>
                             <constraint firstItem="pSP-3k-8kJ" firstAttribute="leading" secondItem="V2H-xH-GGS" secondAttribute="leading" id="5Dj-c2-c8W"/>
                             <constraint firstItem="GcZ-o7-dG4" firstAttribute="top" secondItem="V2H-xH-GGS" secondAttribute="top" constant="31" id="E7u-Gn-hVE"/>
@@ -692,16 +539,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="DFg-Mp-855">
                         <nil key="title"/>
-<<<<<<< HEAD
                         <barButtonItem key="leftBarButtonItem" title="Item" image="menu_icon" id="Ke3-qA-hRk">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Button" id="Xzz-a2-etL">
                             <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-=======
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu_icon" id="Ke3-qA-hRk"/>
-                        <barButtonItem key="rightBarButtonItem" title="Button" id="Xzz-a2-etL">
->>>>>>> 38cecd7462e4a28300cfd3e1a9d03a0f697409d6
                             <connections>
                                 <segue destination="HX3-Me-MmO" kind="show" id="04s-0G-IQn"/>
                             </connections>
@@ -714,11 +556,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="14t-pG-NQO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-<<<<<<< HEAD
             <point key="canvasLocation" x="1933.5999999999999" y="1336.7316341829087"/>
-=======
-            <point key="canvasLocation" x="1934" y="1337"/>
->>>>>>> 38cecd7462e4a28300cfd3e1a9d03a0f697409d6
         </scene>
         <!--View Controller3-->
         <scene sceneID="BpC-l2-vtY">
@@ -728,7 +566,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-<<<<<<< HEAD
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="geY-U5-EPb">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -748,36 +585,18 @@
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="- $32.42 (0.24%)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sq8-Xi-8zo">
                                 <rect key="frame" x="249" y="144" width="126" height="28"/>
-=======
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="balance_bg" translatesAutoresizingMaskIntoConstraints="NO" id="geY-U5-EPb">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trade_graph1" translatesAutoresizingMaskIntoConstraints="NO" id="upB-BX-ZzC">
-                                <rect key="frame" x="22" y="127" width="331" height="172"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="- $32.42 (0.24%)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sq8-Xi-8zo">
-                                <rect key="frame" x="227" y="152" width="126" height="28"/>
->>>>>>> 38cecd7462e4a28300cfd3e1a9d03a0f697409d6
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.80805405050000001" green="0.43590138090000002" blue="0.1704803224" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="23"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="$634.62" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="voa-e7-yqK">
-<<<<<<< HEAD
                                 <rect key="frame" x="310" y="119" width="65" height="30"/>
-=======
-                                <rect key="frame" x="288" y="127" width="65" height="30"/>
->>>>>>> 38cecd7462e4a28300cfd3e1a9d03a0f697409d6
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.21454489369999999" green="0.47988821980000002" blue="0.30070660430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="23"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jVa-KW-oFL">
                                 <rect key="frame" x="16" y="296" width="154" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -795,41 +614,6 @@
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="t5A-mO-GLP"/>
                     </view>
-=======
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gold" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TYE-32-KRC">
-                                <rect key="frame" x="32" y="140" width="79" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="20"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19E-3y-uyO">
-                                <rect key="frame" x="61" y="375" width="94" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Buy"/>
-                                <connections>
-                                    <action selector="alertNotif:" destination="HX3-Me-MmO" eventType="touchUpInside" id="2lQ-H4-p3P"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZc-9e-FdP">
-                                <rect key="frame" x="211" y="375" width="88" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Sell"/>
-                                <connections>
-                                    <action selector="alertNotif2:" destination="HX3-Me-MmO" eventType="touchUpInside" id="ihJ-MX-CBO"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="t5A-mO-GLP"/>
-                    </view>
-                    <connections>
-                        <outlet property="buyButton" destination="19E-3y-uyO" id="pXJ-m4-guM"/>
-                        <outlet property="sellbutton" destination="JZc-9e-FdP" id="wbJ-or-OLf"/>
-                    </connections>
->>>>>>> 38cecd7462e4a28300cfd3e1a9d03a0f697409d6
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EXa-2V-l09" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -843,16 +627,12 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pjk-sY-wNW">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-<<<<<<< HEAD
                         <color key="backgroundColor" red="0.15686274509803921" green="0.17254901960784313" blue="0.19607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" red="0.15686274509803921" green="0.17254901960784313" blue="0.19607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="0.99519230769230771" green="0.99038461538461542" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         </textAttributes>
-=======
-                        <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
->>>>>>> 38cecd7462e4a28300cfd3e1a9d03a0f697409d6
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -866,7 +646,6 @@
     </scenes>
     <resources>
         <image name="Blackrock Logo" width="2000" height="311"/>
-<<<<<<< HEAD
         <image name="about_icon" width="128" height="128"/>
         <image name="account_icon" width="128" height="128"/>
         <image name="background4" width="2524" height="2524"/>
@@ -887,20 +666,6 @@
         <image name="silver_price_image" width="920" height="429"/>
         <image name="textfield_bg" width="727" height="133"/>
         <image name="trade_icon" width="128" height="128"/>
-=======
-        <image name="background4" width="2524" height="2524"/>
-        <image name="balance_bg" width="1417" height="900"/>
-        <image name="button_bg2" width="518" height="79"/>
-        <image name="edu_icon6" width="256" height="256"/>
-        <image name="line" width="128" height="128"/>
-        <image name="menu_icon" width="25" height="25"/>
-        <image name="password" width="32" height="32"/>
-        <image name="textfield_bg" width="727" height="133"/>
-        <image name="trade_graph1" width="1006" height="548"/>
-        <image name="trade_image2" width="964" height="600"/>
-        <image name="trade_image2-1" width="941" height="585"/>
-        <image name="user-2" width="32" height="32"/>
->>>>>>> 38cecd7462e4a28300cfd3e1a9d03a0f697409d6
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Yfb-11-VUW"/>

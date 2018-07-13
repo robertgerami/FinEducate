@@ -15,7 +15,7 @@
 		E171CE8B20EBB14A002304A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E171CE8920EBB14A002304A0 /* LaunchScreen.storyboard */; };
 		E171CE9920EBE39B002304A0 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E171CE9820EBE39B002304A0 /* ViewController2.swift */; };
 		E1D6F81120F7D4B8002622FD /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D6F81020F7D4B8002622FD /* ViewController3.swift */; };
-		F1849E6520F7EA3C00E73C77 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1849E6320F7EA3C00E73C77 /* SWRevealViewController.m */; };
+		E1D6F81420F8CA26002622FD /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D6F81220F8CA26002622FD /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		E171CE9420EBDB8D002304A0 /* FinEducate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FinEducate-Bridging-Header.h"; sourceTree = "<group>"; };
 		E171CE9820EBE39B002304A0 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		E1D6F81020F7D4B8002622FD /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
-		F1849E6320F7EA3C00E73C77 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../../SWRevealViewController.m; sourceTree = "<group>"; };
-		F1849E6420F7EA3C00E73C77 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../../SWRevealViewController.h; sourceTree = "<group>"; };
+		E1D6F81220F8CA26002622FD /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../../../../Desktop/SWRevealViewController.m; sourceTree = "<group>"; };
+		E1D6F81320F8CA26002622FD /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../../../../Desktop/SWRevealViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +64,8 @@
 		E171CE7C20EBB14A002304A0 /* FinEducate */ = {
 			isa = PBXGroup;
 			children = (
-				F1849E6420F7EA3C00E73C77 /* SWRevealViewController.h */,
-				F1849E6320F7EA3C00E73C77 /* SWRevealViewController.m */,
+				E1D6F81320F8CA26002622FD /* SWRevealViewController.h */,
+				E1D6F81220F8CA26002622FD /* SWRevealViewController.m */,
 				E171CE7D20EBB14A002304A0 /* AppDelegate.swift */,
 				E171CE7F20EBB14A002304A0 /* ViewController.swift */,
 				E171CE8120EBB14A002304A0 /* Main.storyboard */,
@@ -153,12 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1D6F81420F8CA26002622FD /* SWRevealViewController.m in Sources */,
 				E171CE9920EBE39B002304A0 /* ViewController2.swift in Sources */,
 				E171CE8020EBB14A002304A0 /* ViewController.swift in Sources */,
 				E1D6F81120F7D4B8002622FD /* ViewController3.swift in Sources */,
 				E171CE8620EBB14A002304A0 /* FinEducate.xcdatamodeld in Sources */,
 				E171CE7E20EBB14A002304A0 /* AppDelegate.swift in Sources */,
-				F1849E6520F7EA3C00E73C77 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -26,7 +26,7 @@ class ViewController3: UIViewController {
     }
     
     @IBAction func alertNotif(_ sender: Any) {
-        let alert = UIAlertController(title: "Are you sure that you would like to buy this fund for $32.37.", message:" Press Yes or No.", preferredStyle: UIAlertControllerStyle.alert)
+        let alert = UIAlertController(title: "Are you sure that you would like to buy 10 funds for $823.37.", message:" Press Yes or No.", preferredStyle: UIAlertControllerStyle.alert)
         
         alert.addAction(UIAlertAction(title: "Yes", style: UIAlertActionStyle.default, handler: { (action) in
             alert.dismiss(animated: true, completion: nil)
@@ -42,7 +42,7 @@ class ViewController3: UIViewController {
     }
     
     @IBAction func alertNotif2(_ sender: Any) {
-        let alert = UIAlertController(title: "Are you sure that you would like to sell this fund for $32.37.", message:" Press Yes or No.", preferredStyle: UIAlertControllerStyle.alert)
+        let alert = UIAlertController(title: "Are you sure that you would like to sell 10 funds for $823.37.", message:" Press Yes or No.", preferredStyle: UIAlertControllerStyle.alert)
         
         alert.addAction(UIAlertAction(title: "Yes", style: UIAlertActionStyle.default, handler: { (action) in
             alert.dismiss(animated: true, completion: nil)

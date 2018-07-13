@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-=======
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
->>>>>>> branch_1
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -771,19 +768,15 @@
         <image name="balance_bg" width="1417" height="900"/>
         <image name="bronze_price_image" width="931" height="456"/>
         <image name="button_bg2" width="518" height="79"/>
-<<<<<<< HEAD
         <image name="buy_button_bg" width="212" height="75"/>
-        <image name="edu_icon6" width="256" height="256"/>
-        <image name="education_icon" width="128" height="128"/>
-        <image name="gold_price_image" width="931" height="456"/>
-        <image name="leaderboard_icon" width="128" height="128"/>
-=======
         <image name="car" width="800" height="600"/>
         <image name="daily-2" width="404" height="604"/>
         <image name="edu_icon6" width="256" height="256"/>
+        <image name="education_icon" width="128" height="128"/>
         <image name="global-1" width="700" height="577"/>
         <image name="global-2" width="661" height="773"/>
->>>>>>> branch_1
+        <image name="gold_price_image" width="931" height="456"/>
+        <image name="leaderboard_icon" width="128" height="128"/>
         <image name="line" width="128" height="128"/>
         <image name="menu_icon" width="25" height="25"/>
         <image name="oil_price_image" width="931" height="456"/>
@@ -792,17 +785,10 @@
         <image name="settings_icon" width="128" height="128"/>
         <image name="silver_price_image" width="920" height="429"/>
         <image name="textfield_bg" width="727" height="133"/>
-<<<<<<< HEAD
         <image name="trade_icon" width="128" height="128"/>
-=======
-        <image name="trade_graph1" width="1006" height="548"/>
-        <image name="trade_image2" width="964" height="600"/>
-        <image name="trade_image2-1" width="941" height="585"/>
         <image name="trend-1" width="381" height="462"/>
         <image name="unknown-clipart-missing-person-12" width="350" height="350"/>
-        <image name="user-2" width="32" height="32"/>
         <image name="weekly" width="417" height="747"/>
->>>>>>> branch_1
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Yfb-11-VUW"/>

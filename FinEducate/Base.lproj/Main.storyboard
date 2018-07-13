@@ -101,7 +101,7 @@
                                 <rect key="frame" x="82" y="44" width="212" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Learn To Earn" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vnd-NA-k86" userLabel="FinEducate_white">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Learn2Earn" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vnd-NA-k86" userLabel="FinEducate_white">
                                 <rect key="frame" x="50" y="160" width="277" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -199,11 +199,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yc8-W7-rUu">
-                                <rect key="frame" x="164" y="240" width="46" height="30"/>
+                                <rect key="frame" x="164" y="240" width="46" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="GKr-Ry-z4S" kind="show" id="Yfb-11-VUW"/>
+                                    <segue destination="GKr-Ry-z4S" kind="show" id="DVy-Et-08L"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -213,7 +213,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dza-vZ-UWC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-559.20000000000005" y="965.6671664167917"/>
+            <point key="canvasLocation" x="-719" y="957"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="Pa2-64-KOa">
@@ -613,6 +613,6 @@
         <image name="user-2" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Yfb-11-VUW"/>
+        <segue reference="DVy-Et-08L"/>
     </inferredMetricsTieBreakers>
 </document>

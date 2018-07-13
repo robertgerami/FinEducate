@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+>>>>>>> branch_1
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -156,8 +160,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uy4-sJ-KdD">
-                                <rect key="frame" x="62" y="226" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car" translatesAutoresizingMaskIntoConstraints="NO" id="4gX-CR-mRq">
+                                <rect key="frame" x="0.0" y="34" width="375" height="302"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car" translatesAutoresizingMaskIntoConstraints="NO" id="wUq-DD-g3d">
+                                <rect key="frame" x="10" y="44" width="375" height="302"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blackrock Logo" translatesAutoresizingMaskIntoConstraints="NO" id="p9O-03-KDO">
+                                <rect key="frame" x="55" y="111" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="unknown-clipart-missing-person-12" translatesAutoresizingMaskIntoConstraints="NO" id="9hI-jE-TWd">
+                                <rect key="frame" x="67" y="404" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="global-2" translatesAutoresizingMaskIntoConstraints="NO" id="Te3-Jg-1ld">
+                                <rect key="frame" x="0.0" y="34" width="375" height="552"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -167,7 +187,106 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r9i-2I-3Xz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2418" y="-57"/>
+            <point key="canvasLocation" x="2829.5999999999999" y="-1197.7511244377813"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="C2t-Ah-1ST">
+            <objects>
+                <viewController id="wa8-Ia-hSA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dlR-lW-t0r">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="weekly" translatesAutoresizingMaskIntoConstraints="NO" id="rs6-TI-7kY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="687"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blackrock Logo" translatesAutoresizingMaskIntoConstraints="NO" id="P11-Nd-OBH">
+                                <rect key="frame" x="139" y="13" width="101" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="global-1" translatesAutoresizingMaskIntoConstraints="NO" id="ty6-Xu-acO">
+                                <rect key="frame" x="0.0" y="695" width="375" height="329"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="global-2" translatesAutoresizingMaskIntoConstraints="NO" id="yOm-yn-C8Q">
+                                <rect key="frame" x="0.0" y="1013" width="375" height="474"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="vma-ME-LDV"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="I5b-6y-uBb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lRg-2I-J17" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3461.5999999999999" y="-795.20239880059978"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="vT9-pS-CcJ">
+            <objects>
+                <viewController id="WBj-Mv-Fn9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xu2-FF-Db0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car" translatesAutoresizingMaskIntoConstraints="NO" id="gf9-7r-QDF">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="302"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Learn 2 Earn" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zca-bA-qLn" userLabel="FinEducate_white">
+                                <rect key="frame" x="0.0" y="3" width="220" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="DamascusLight" family="Damascus" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="unknown-clipart-missing-person-12" translatesAutoresizingMaskIntoConstraints="NO" id="MdJ-au-vAX">
+                                <rect key="frame" x="326" y="12" width="28" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blackrock Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Hw3-VL-GIQ">
+                                <rect key="frame" x="139" y="269" width="97" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="daily-2" translatesAutoresizingMaskIntoConstraints="NO" id="5WR-RV-4Fd">
+                                <rect key="frame" x="0.0" y="295" width="375" height="558"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trend-1" translatesAutoresizingMaskIntoConstraints="NO" id="fnV-eY-Cg4">
+                                <rect key="frame" x="0.0" y="851" width="375" height="495"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ZsP-xF-MVG"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="VVY-sL-DMB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xex-YG-mjH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4092" y="-739"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="I3k-5S-fch">
+            <objects>
+                <tabBarController id="ynC-qC-IAV" sceneMemberID="viewController">
+                    <size key="freeformSize" width="375" height="1500"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mRr-kW-4lo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="WBj-Mv-Fn9" kind="relationship" relationship="viewControllers" id="wWV-Zn-KM4"/>
+                        <segue destination="wa8-Ia-hSA" kind="relationship" relationship="viewControllers" id="haN-X8-39C"/>
+                        <segue destination="aH0-dT-zZj" kind="show" id="yzm-jR-MRJ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fI8-rb-x9g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1766" y="-745"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Trz-RQ-65h">
@@ -652,11 +771,19 @@
         <image name="balance_bg" width="1417" height="900"/>
         <image name="bronze_price_image" width="931" height="456"/>
         <image name="button_bg2" width="518" height="79"/>
+<<<<<<< HEAD
         <image name="buy_button_bg" width="212" height="75"/>
         <image name="edu_icon6" width="256" height="256"/>
         <image name="education_icon" width="128" height="128"/>
         <image name="gold_price_image" width="931" height="456"/>
         <image name="leaderboard_icon" width="128" height="128"/>
+=======
+        <image name="car" width="800" height="600"/>
+        <image name="daily-2" width="404" height="604"/>
+        <image name="edu_icon6" width="256" height="256"/>
+        <image name="global-1" width="700" height="577"/>
+        <image name="global-2" width="661" height="773"/>
+>>>>>>> branch_1
         <image name="line" width="128" height="128"/>
         <image name="menu_icon" width="25" height="25"/>
         <image name="oil_price_image" width="931" height="456"/>
@@ -665,7 +792,17 @@
         <image name="settings_icon" width="128" height="128"/>
         <image name="silver_price_image" width="920" height="429"/>
         <image name="textfield_bg" width="727" height="133"/>
+<<<<<<< HEAD
         <image name="trade_icon" width="128" height="128"/>
+=======
+        <image name="trade_graph1" width="1006" height="548"/>
+        <image name="trade_image2" width="964" height="600"/>
+        <image name="trade_image2-1" width="941" height="585"/>
+        <image name="trend-1" width="381" height="462"/>
+        <image name="unknown-clipart-missing-person-12" width="350" height="350"/>
+        <image name="user-2" width="32" height="32"/>
+        <image name="weekly" width="417" height="747"/>
+>>>>>>> branch_1
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Yfb-11-VUW"/>

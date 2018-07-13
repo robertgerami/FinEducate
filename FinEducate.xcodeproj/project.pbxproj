@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8FDEBE220F7EA1200EC5A2F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FDEBE120F7EA1200EC5A2F /* SWRevealViewController.m */; };
 		E171CE7E20EBB14A002304A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E171CE7D20EBB14A002304A0 /* AppDelegate.swift */; };
 		E171CE8020EBB14A002304A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E171CE7F20EBB14A002304A0 /* ViewController.swift */; };
 		E171CE8320EBB14A002304A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E171CE8120EBB14A002304A0 /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C8FDEBE020F7EA1100EC5A2F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		C8FDEBE120F7EA1200EC5A2F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		E171CE7A20EBB14A002304A0 /* FinEducate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinEducate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E171CE7D20EBB14A002304A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E171CE7F20EBB14A002304A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,14 +67,19 @@
 		E171CE7C20EBB14A002304A0 /* FinEducate */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				F1849E6420F7EA3C00E73C77 /* SWRevealViewController.h */,
 				F1849E6320F7EA3C00E73C77 /* SWRevealViewController.m */,
+=======
+>>>>>>> branch_1
 				E171CE7D20EBB14A002304A0 /* AppDelegate.swift */,
 				E171CE7F20EBB14A002304A0 /* ViewController.swift */,
 				E171CE8120EBB14A002304A0 /* Main.storyboard */,
 				E1D6F81020F7D4B8002622FD /* ViewController3.swift */,
 				E171CE8720EBB14A002304A0 /* Assets.xcassets */,
 				E171CE8920EBB14A002304A0 /* LaunchScreen.storyboard */,
+				C8FDEBE020F7EA1100EC5A2F /* SWRevealViewController.h */,
+				C8FDEBE120F7EA1200EC5A2F /* SWRevealViewController.m */,
 				E171CE9820EBE39B002304A0 /* ViewController2.swift */,
 				E171CE8C20EBB14A002304A0 /* Info.plist */,
 				E171CE8420EBB14A002304A0 /* FinEducate.xcdatamodeld */,
@@ -153,12 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8FDEBE220F7EA1200EC5A2F /* SWRevealViewController.m in Sources */,
 				E171CE9920EBE39B002304A0 /* ViewController2.swift in Sources */,
 				E171CE8020EBB14A002304A0 /* ViewController.swift in Sources */,
 				E1D6F81120F7D4B8002622FD /* ViewController3.swift in Sources */,
 				E171CE8620EBB14A002304A0 /* FinEducate.xcdatamodeld in Sources */,
 				E171CE7E20EBB14A002304A0 /* AppDelegate.swift in Sources */,
+<<<<<<< HEAD
 				F1849E6520F7EA3C00E73C77 /* SWRevealViewController.m in Sources */,
+=======
+>>>>>>> branch_1
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,9 +313,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWDU5G46JL;
 				INFOPLIST_FILE = FinEducate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Atom.FinEducate;
+				PRODUCT_BUNDLE_IDENTIFIER = Atom.FinEducate123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FinEducate/FinEducate-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -318,9 +332,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWDU5G46JL;
 				INFOPLIST_FILE = FinEducate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Atom.FinEducate;
+				PRODUCT_BUNDLE_IDENTIFIER = Atom.FinEducate123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FinEducate/FinEducate-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;

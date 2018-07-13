@@ -11,7 +11,6 @@ import UIKit
 class ViewController2: UIViewController {
 
     @IBOutlet weak var menuButton: UIBarButtonItem!
-    @IBOutlet weak var alertButton: UIBarButtonItem!
     
     
     override func viewDidLoad() {
@@ -34,9 +33,7 @@ class ViewController2: UIViewController {
             revealViewController().rearViewRevealWidth = 200
             revealViewController().rightViewRevealWidth = 160
             
-            alertButton.target = revealViewController()
-            alertButton.action = #selector(SWRevealViewController.rightRevealToggle(_:))
-            
+       
             view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
             
             
